@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/1822494fd9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/note_17790696.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="main-sec">
+      <h1>ToDo List</h1>
+      <div class="search">
+        <input type="text" name="add" id="add" placeholder="Enter the Text" />
+        <a href="#"
+          ><button id="btn" onclick="fun()">
+            <i class="fa-solid fa-plus"></i></button
+        ></a>
+      </div>
+      <img
+        src="./assets/empty.png"
+        alt="empty-list"
+        style="display: block"
+        id="img-empty"
+      />
+    </div>
+
+    <div id="list-sec" style="display: block">
+      <div id="task-list"></div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
